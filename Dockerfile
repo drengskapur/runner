@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.20-labs
+# syntax=docker/dockerfile:1.27-labs
 # trivy:ignore:DS002 - Container starts as root for privileged init operations,
 # then drops to non-root (uid 1000) via su-exec before running the application.
 
