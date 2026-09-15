@@ -48,7 +48,7 @@ ARG PYTHON_VERSION=3.12
 #──────────────────────────────────────────────────────────────────────────────
 # Base stage - minimal runtime dependencies
 #──────────────────────────────────────────────────────────────────────────────
-FROM cgr.dev/chainguard/wolfi-base@sha256:0d8efc73b806c780206b69d62e1b8cb10e9e2eefa0e4452db81b9fa00b1a5175 AS base
+FROM cgr.dev/chainguard/wolfi-base@sha256:3754b6da0e1ccdab0fe46abfdd7bbbba994b593c28149f6659fa6597f2261aeb AS base
 
 ARG PYTHON_VERSION
 
